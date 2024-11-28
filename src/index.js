@@ -56,11 +56,17 @@ function App() {
   );
 }
 
-function Header() {}
+function Header() {
+  return <h1>Fast React Pizza Co.</h1>;
+}
 
 function Menu() {}
 
-function Footer() {}
+function Footer() {
+  return (
+    <footer>{new Date().toLocaleTimeString()}. We're currently open</footer>
+  );
+}
 
 function Pizza() {
   return (
